@@ -1,0 +1,25 @@
+﻿  main.cpp
+E:\Projects\CSE 426\Project4\sphere.h(97,29): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\Projects\CSE 426\Project4\sphere.h(97,29): warning C4305:         with
+E:\Projects\CSE 426\Project4\sphere.h(97,29): warning C4305:         [
+E:\Projects\CSE 426\Project4\sphere.h(97,29): warning C4305:             T=float
+E:\Projects\CSE 426\Project4\sphere.h(97,29): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+E:\Projects\CSE 426\Project4\sphere.h(98,30): warning C4305: 'argument': truncation from 'double' to 'T'
+E:\Projects\CSE 426\Project4\sphere.h(98,30): warning C4305:         with
+E:\Projects\CSE 426\Project4\sphere.h(98,30): warning C4305:         [
+E:\Projects\CSE 426\Project4\sphere.h(98,30): warning C4305:             T=float
+E:\Projects\CSE 426\Project4\sphere.h(98,30): warning C4305:         ]
+  (compiling source file 'main.cpp')
+  
+E:\Projects\CSE 426\Project4\sphere.h(184,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+E:\Projects\CSE 426\Project4\sphere.h(185,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+E:\Projects\CSE 426\Project4\sphere.h(187,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  Lab9_Lighting.vcxproj -> E:\Projects\CSE 426\Project4\x64\Debug\Project [Ali, Adib, Naimul].exe
