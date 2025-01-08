@@ -7,9 +7,12 @@ This project is a 3D Seaport simulation created using **OpenGL**, **GLFW**, **GL
 - **Course Code**: CSE 426 Graphics Lab Project
 - **University**: University of Asia Pacific
 - **Contributors**:
-  - Ali Ahasan ([GitHub](https://github.com/AARdacca))
-  - Md Naimul Basher ([GitHub](https://github.com/naimulbasher))
-  - Adib Hossain ([GitHub](https://github.com/adib055))
+  - Ali Ahasan ([GitHub](https://github.com/AARdacca)) [Email:
+    aliahasan.dhaka@gmail.com]
+  - Md Naimul Basher ([GitHub](https://github.com/naimulbasher)) [Email:
+    naimulbasher122@gmail.com]
+  - Adib Hossain ([GitHub](https://github.com/adib055)) [Email:
+    adibhossain2001@gmail.com]
 
 ## Development Environment
 
