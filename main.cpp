@@ -1314,6 +1314,8 @@ int main()
         //model = translateMatrix * scaleMatrix;
         //sphere3.drawSphere(lightingShader, model);
 
+        //----------------------------------------------------------------------------------------------------------- Lorry Truck 1
+
         float zPos = -5.3f;
         if (time.x <= 30.0f)
         {
@@ -1326,31 +1328,31 @@ int main()
             zPos = -35.0f + fraction * (35.0f - 5.3f);
         }
         translateMatrix = glm::translate(identityMatrix, glm::vec3(1.0f, 0.13f, zPos));
-        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 1.0f, 1.0f));
+        scaleMatrix = glm::scale(identityMatrix, glm::vec3(1.0f, 1.0f, 1.0f));  //for sphere size
         model = translateMatrix * scaleMatrix;
-        drawLorryTruckCockpit(lorryTruckCockpitVAO, lightingShader, model, 0.0f, 0.5f, 0.5f);
+        drawLorryTruckCockpit(lorryTruckCockpitVAO, lightingShader, model, 0.0f, 0.5f, 0.5f);  // Lorry Cockpit
         translateMatrix = glm::translate(identityMatrix, glm::vec3(1.0f, 0.02f, zPos + 0.3f));
         scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.1f, 0.1f, 0.4f));
         model = translateMatrix * scaleMatrix;
-        drawFlatSurfaceLightHolder(flatSurfaceLightHolderVAO, lightingShader, model, 0.7f, 0.3f, 0.5f);
+        drawFlatSurfaceLightHolder(flatSurfaceLightHolderVAO, lightingShader, model, 0.7f, 0.3f, 0.5f); // Lorry Engine Frame
         sphere3.setColor(0.4f, 0.4f, 0.4f);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.01f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.01f)); // Front Wheels Left
         scaleMatrix = glm::scale(identityMatrix, glm::vec3(0.01f, 0.045f, 0.045f));
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.01f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.01f)); // Front Wheels Left
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.6f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.6f)); // Rear Wheels 2 Right
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.6f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.6f)); // Rear Wheels 2 Left
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.5f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(1.1f, 0.01f, zPos + 0.5f)); // Rear Wheels 1 Right
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
-        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.5f));
+        translateMatrix = glm::translate(identityMatrix, glm::vec3(0.9f, 0.01f, zPos + 0.5f)); // Rear Wheels 1 Left
         model = translateMatrix * scaleMatrix;
         sphere3.drawSphere(lightingShader, model);
 
