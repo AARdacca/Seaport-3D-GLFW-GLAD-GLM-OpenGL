@@ -41,7 +41,7 @@ Extract the ZIP file if downloaded, and locate the `CG All in 1.zip`. Extract th
 
 ### Step 2: Open the Solution
 
-After extraction, open the `Seaport3D.sln` file in Visual Studio 2022.
+After extraction, open the `Project [Ali ,Adib, Naimul].sln` file in Visual Studio 2022.
 
 ### Step 3: Setup Dependencies
 
@@ -72,6 +72,31 @@ After extraction, open the `Seaport3D.sln` file in Visual Studio 2022.
 ## Notes
 - Ensure that the project is set to the correct **platform target** (x86 or x64) to match your GLFW and OpenGL library versions.
 - If any issues occur during setup, verify that the include and library paths are correctly configured.
+- If the issues with the code go to [Pastebin](https://pastebin.com/rSr3T1QJ) and copy the code and paste it to the CPP file.
+- There is YouTube Video Guideline about it. Visit this [YouTube Link](https://youtu.be/5Rr6Ltpj9HA).
+
+## Keyboard Controls
+
+| Key        | Action                                                                 |
+|------------|------------------------------------------------------------------------|
+| `ESC`      | Exit application                                                       |
+| `W`        | Move camera forward                                                    |
+| `S`        | Move camera backward                                                   |
+| `A`        | Move camera left                                                       |
+| `D`        | Move camera right                                                      |
+| `E`        | Move camera up                                                         |
+| `R`        | Move camera down                                                       |
+| `I`        | Toggle boarding‐house door open/close                                  |
+| `O`        | Toggle ship departure animation                                        |
+| `P`        | Toggle day/night                                                       |
+| `0`        | Toggle directional light on/off                                        |
+| `1`        | Toggle all point lights on/off                                         |
+| `2`        | Toggle specular component of point lights                              |
+| `3`        | Toggle diffuse component of point lights                               |
+| `4`        | Toggle ambient component of point lights                               |
+| Mouse Move | Rotate camera (look around)                                            |
+| Mouse Scroll | Zoom camera in/out (change FOV)                                      |
+
 
 ## License
 This project follows the licensing terms stated in the repository.
